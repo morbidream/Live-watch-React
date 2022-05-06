@@ -9,7 +9,7 @@ function App() {
 		setInterval(() => {
 			//console.log('watching');
 			setDateState(new Date());
-		}, 500);
+		});
 	}, []);
 	return (
 		<div className="App">
